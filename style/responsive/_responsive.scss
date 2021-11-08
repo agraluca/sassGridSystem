@@ -1,0 +1,34 @@
+@import "../themes/theme.scss";
+
+@mixin responsive($device) {
+  @if $device == xl {
+    // For resolutions upper 1440px
+    @media (min-width: $container-xl) {
+      @content;
+    }
+  } @else if $device == l {
+    // For resolutions between 1140px and 1440px
+    @media (max-width: $container-xl) and (min-width: $container-l) {
+      @content;
+    }
+  } @else if $device == m {
+    // For resolutions between 960px and 1140px
+    @media (max-width: $container-l) and (min-width: $container-s) {
+      @content;
+    }
+  } @else if $device == s {
+    // For resolutions less than 960px
+    @media (max-width: $container-m) {
+      @content;
+    }
+  } @else if $device == xs {
+    // For resolutions less than 540px
+    @media (max-width: $container-s) {
+      @content;
+    }
+  }
+}
+
+@function grid($col, $total: 12) {
+  @return ($col/$total) * 100%;
+}

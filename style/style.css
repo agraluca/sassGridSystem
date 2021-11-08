@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100vh;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.grid-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(8.33333% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-1 {
+    width: 100%;
+  }
+}
+
+.grid-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(16.66667% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-2 {
+    width: 100%;
+  }
+}
+
+.grid-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(25% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-3 {
+    width: 100%;
+  }
+}
+
+.grid-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(33.33333% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-4 {
+    width: 100%;
+  }
+}
+
+.grid-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(41.66667% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-5 {
+    width: 100%;
+  }
+}
+
+.grid-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(50% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-6 {
+    width: 100%;
+  }
+}
+
+.grid-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(58.33333% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-7 {
+    width: 100%;
+  }
+}
+
+.grid-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(66.66667% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-8 {
+    width: 100%;
+  }
+}
+
+.grid-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(75% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-9 {
+    width: 100%;
+  }
+}
+
+.grid-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(83.33333% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-10 {
+    width: 100%;
+  }
+}
+
+.grid-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(91.66667% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-11 {
+    width: 100%;
+  }
+}
+
+.grid-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 2.4rem);
+  border: 0.3rem solid #c76494;
+}
+
+@media (max-width: 54rem) {
+  .grid-12 {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  min-width: 30rem;
+  padding: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2.4rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (max-width: 54rem) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.container__title {
+  color: #fafafa;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 110%;
+}
+
+.container__title span {
+  font-size: 2.4rem;
+  color: #c76494;
+}
+
+.container__subTitle {
+  color: #fafafa;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 115%;
+  padding: 1rem 0;
+}
+
+.container__paragraph {
+  color: #4b4b4b;
+  font-size: 1.6rem;
+}
+
+.container__random-img {
+  width: 100%;
+  height: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */

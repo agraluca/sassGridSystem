@@ -1,0 +1,42 @@
+$white: #fafafa;
+$black: #1c1c1c;
+$pink: #c76494;
+$light-black: #4b4b4b;
+$gray: #eee;
+
+$layout: dark;
+
+$bg-color: #1a1a1a;
+$text-color: #fafafa;
+
+$container-xl: 144rem;
+$container-l: 114rem;
+$container-m: 96rem;
+$container-s: 54rem;
+
+$container: 120rem;
+$gutter: 2.4rem;
+
+@if $layout == dark {
+  $bg-color: #1a1a1a;
+  $text-color: #fafafa;
+} @else {
+  $bg-color: #fafafa;
+  $text-color: #1a1a1a;
+}
+
+@mixin headingOne($cor: $black) {
+  color: $cor;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 110%;
+  @content;
+}
+
+@mixin headingTwo($cor: $black) {
+  color: $cor;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 115%;
+  @content;
+}
