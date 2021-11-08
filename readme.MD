@@ -16,9 +16,9 @@
 
 ## :bulb: Sobre o projeto
 
-Esse projeto foi desenvolvido por questões de
+Esse projeto foi desenvolvido por questões de estudo.
 
-Nesse projeto utilizei o [SASS](https://sass-lang.com/)
+Nesse projeto utilizei o [SASS](https://sass-lang.com/).
 
 O intuito dele foi se familiarizar com algumas funcionalidades dele. Como normalmente utilizo o Styled Components, decidi dar uma chance para aprender o funcionamento do SASS. Nele utilizei functions, mixins, loops, if/elses, variáveis, arquivos partials e etc.
 
